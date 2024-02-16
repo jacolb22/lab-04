@@ -20,5 +20,20 @@ Forking is the process of copying a GitHub repository or "repo" to a repo on you
 
 ## Cloning
 
-Cloning is the process of copying a GitHub repo from your account or some 3rd party's account into your local machine. It is now available to edit
+Cloning is the process of copying a GitHub repo from your account or some 3rd party's account into your local machine. It is now available to edit on your choice of text editor or IDE.
 
+## Editing
+
+Editing is done normally in a text editor or IDE. This is done on a local machine typically. Upon reaching a natural stopping point, it is now an option to commit your changes, and push them to the remote repo, which will be described next.
+
+## Committing
+
+Committing is the process of logging changes to the local files. Typically these local files will line up with the remote repo. Changes must be staged to be committed. In the family picture metaphor, staging is getting everyone ready for the picture and posing them, whereas committing is snapping the picture itself. Now, this picture lives on the camera.
+
+## Pushing
+
+Pushing is the process of sending changes to and updating the remote repo. Only committed changes can be pushed. It is usually beneficial to look over the changes that will be pushed to make sure you are not pushing broken or incomplete code into your remote repo. In the family picture metaphor, this is syncing the picture off of the camera and into the family computer, so it can be viewed be everyone.
+
+# Assessing progress
+
+I learned how to use Git and GitHub as a version control system, and as a way to store my files. Frankly, nothing was that challenging about this lab, it all made sense to me. I'm certainly glad I got the opportunity to learn it though, because I had tried to learn how Git works before, and struggled with it much more. I would like to use terminal commands instead of a GUI to work with Git, as that, to my knowledge is the industry standard in computer science. Perhaps I will watch [this video](https://youtu.be/BRAG1Kj4-Ss?si=v5r2xNob7x_yRl9T).
