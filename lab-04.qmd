@@ -1,26 +1,24 @@
 ---
 title: "Lab 04: Scaffolding reproducible research"
 author: "Logan Jacobs"
-format: html
+format:
+  pdf:
+    toc: true
+    toc-depth: 1
+editor: source
 ---
 
-## Quarto
+# Reproducible research
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+Reproducible research describes the process of doing research within an organized framework, called a project structure. This framework allows other researchers to reproduce, or check our results, without the "computing environment" getting in the way, or changing results. The computing environment is the set of tools, or packages needed to run the code within our research. The project structure is comprised of the files and directories within the project. Git and GitHub supports these reproducible research practices by allowing the entire project to be downloaded by other people, including out project structure. Git also contains data on the computing environment, so that can be held constant as well.
 
-## Running Code
+# Project management
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+## Forking
 
-```{r}
-1 + 1
-```
+Forking is the process of copying a GitHub repository or "repo" to a repo on your personal account. This allows you to diverge from the original repo.
 
-You can add options to executable code like this 
+## Cloning
 
-```{r}
-#| echo: false
-2 * 2
-```
+Cloning is the process of copying a GitHub repo from your account or some 3rd party's account into your local machine. It is now available to edit
 
-The `echo: false` option disables the printing of code (only output is displayed).
