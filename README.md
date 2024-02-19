@@ -1,6 +1,7 @@
 # Lab 04: Scaffolding reproducible research
 
 Hello world
+credential test
 
 ## Preparation
 
